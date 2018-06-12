@@ -18,6 +18,9 @@
  * @package WordPress
  */
 
+define('WP_CONTENT_URL', 'http://chicago-data.herokuapp.com');
+
+
 // ** MySQL settings - You can get this info from your web host ** //
 $url = parse_url(getenv('DATABASE_URL') ? get_env('DATABASE_URL') :  getenv('CLEARDB_DATABASE_URL'));
 
